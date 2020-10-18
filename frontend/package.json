@@ -1,0 +1,24 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/apollo": "^4.0.1-rc.4",
+        "@nuxtjs/markdownit": "^1.2.10",
+        "core-js": "^3.6.5",
+        "graphql": "^15.3.0",
+        "graphql-tag": "^2.11.0",
+        "nuxt": "^2.14.6",
+        "uikit": "^3.5.8"
+    },
+    "devDependencies": {},
+    "peerDependencies": {
+        "vue-template-compiler": "^2.0.0"
+    }
+}
